@@ -46,12 +46,18 @@ Set `LDGame` as startup project on the steps above.
 
 Now, the sounds require fmod, which I am not really allowed to ship here. If you want to get sounds working, run the editor and **check the log error for instructions**. You can get the fmod binaries [here](https://www.fmod.com/download), under "Fmod Engine". You just manually add the assemblies on all the architectures you want to target (macOS, Windows, Linux). Here are the binaries you need for those plarforms:
 - macOS
+  - `libfmod.dylib`
+  - `libfmodL.dylib`
   - `libfmodstudio.dylib`
   - `libfmodstudioL.dylib`
 - Windows
+  - `fmod.dll` (not verified)
+  - `fmodL.dll` (not verified)
   - `fmodstudio.dll` (not verified)
   - `fmodstudioL.dll` (not verified)
 - Linux
+  - `libfmod.so`
+  - `libfmodL.so`
   - `libfmodstudio.so`
   - `libfmodstudioL.so`
 
